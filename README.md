@@ -1,5 +1,4 @@
-Overview
-Realtime Emotion Detection Using Keras https://youtu.be/DtBu1u5aBsc
+This is based on Keras model
 
 
 Program is trained for 100 epochs and runs at 86% accuracy.
@@ -15,6 +14,7 @@ Download haarcascades file
 
 Note: Kaggle dataset can be downloaded from:
 http://www.mediafire.com/folder/trbjv7bysiycl/challenges-in-representation-learning-facial-expression-recognition-challenge
+from this link download the fer2013.csv file 
 
 Steps:=>
 1. download all the data set and save it to same path where you save the code
