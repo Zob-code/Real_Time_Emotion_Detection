@@ -27,3 +27,6 @@ Steps:=>
 4. install req dependencies
 5. Run emotion_detection.py
 6. run vidotester.py
+
+
+NOTE-> TENSORFLOW  will work in python 3.8 not in 3.9 
