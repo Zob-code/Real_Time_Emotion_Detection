@@ -1,0 +1,5 @@
+STEP 1:- download required dataset(harascade_frontal_face.xml ,emotion_detection.h5 and fer2013.csv )
+STEP 1:- Install required modules
+STEP 2:- Create virtual evnviroment for using tensorflow module
+STEP 3:- train the model upto min 100 epoches
+STEP 4:- Then run the videotester.py file
