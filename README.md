@@ -3,7 +3,7 @@
 This is based on Keras model
 
 
-Program is trained for 100 epochs and runs at 86% accuracy.
+Program is trained for 25 epochs 
 
 ## Dependencies:
 
@@ -18,17 +18,18 @@ pip install keras
 pip install opencv-python
 
 
-## Note: Kaggle dataset can be downloaded from:
-http://www.mediafire.com/folder/trbjv7bysiycl/challenges-in-representation-learning-facial-expression-recognition-challenge
-from this link download the fer2013.csv file 
+## Note: download dataset from the given link:-
+https://drive.google.com/file/d/1kmzULCVD4f3marsNvsocyLBVrzb_YvNo/view
+
+
 
 ## Steps:=>
-1. download all the data set and save it to same path where you save the code
-2. create a virtual enviroment for using tensorflow using this command => python -m venv --system-site-packages .\venv
-3. activate the env by using this command => .\venv\Scripts\activate
-4. install req dependencies
-5. Run emotion_detection.py
-6. run vidotester.py
+1. Download the dataset, and copy the train and validation folder and save it to a different folder
+2. install the the dependencies
+3. download or copy the haarcascade_frontalface_default.xml file 
+4. run the model.py file to train your model
+5. then run the videotester.py file for testing the output
+
 
 
 ## NOTE-> TENSORFLOW  will work in python 3.8 not in 3.9 
