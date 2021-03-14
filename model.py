@@ -10,8 +10,8 @@ num_classes = 5
 img_rows,img_cols = 48,48
 batch_size = 32
 
-train_data_dir = r'C:\Users\Zobaier\Desktop\Real_Time_Emotion_Detection\train'
-validation_data_dir = r'C:\Users\Zobaier\Desktop\Real_Time_Emotion_Detection\validation'
+train_data_dir = r'C:\Users\Zobaier\Desktop\Real_Time_Emotion_Detection\train' # give your directory where saved the train file
+validation_data_dir = r'C:\Users\Zobaier\Desktop\Real_Time_Emotion_Detection\validation'  # give your directory where saved the validation file
 
 train_datagen = ImageDataGenerator(
 					rescale=1./255,
@@ -113,7 +113,7 @@ print(model.summary())
 from keras.optimizers import RMSprop,SGD,Adam
 from keras.callbacks import ModelCheckpoint, EarlyStopping, ReduceLROnPlateau
 
-checkpoint = ModelCheckpoint(r'C:\Users\Zobaier\Desktop\Real_Time_Emotion_Detection\Emotion_little_vgg.h5',
+checkpoint = ModelCheckpoint(r'C:\Users\Zobaier\Desktop\Real_Time_Emotion_Detection\Emotion_little_vgg.h5',  # give the directory where you want to save the model.h5 file
                              monitor='val_loss',
                              mode='min',
                              save_best_only=True,
