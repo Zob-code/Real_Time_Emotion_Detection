@@ -5,8 +5,8 @@ from keras.preprocessing import image
 import cv2
 import numpy as np
 
-face_classifier = cv2.CascadeClassifier(r'C:\Users\Zobaier\Desktop\Real_Time_Emotion_Detection\haarcascade_frontalface_default.xml')
-classifier =load_model(r'C:\Users\Zobaier\Desktop\Real_Time_Emotion_Detection\Emotion_little_vgg.h5')
+face_classifier = cv2.CascadeClassifier(r'C:\Users\Zobaier\Desktop\Real_Time_Emotion_Detection\haarcascade_frontalface_default.xml') # give the directory where you saved the xml file
+classifier =load_model(r'C:\Users\Zobaier\Desktop\Real_Time_Emotion_Detection\Emotion_little_vgg.h5') # give the directory where you saved the model.h5 file
 
 class_labels = ['Angry','Happy','Neutral','Sad','Surprise']
 
